@@ -5,3 +5,4 @@ import json
 with open("sample.json") as f:
     character = json.load(f)
     print(character['id'])
+    pass
