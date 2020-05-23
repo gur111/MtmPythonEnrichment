@@ -8,6 +8,7 @@ with open('GoogleSearch/creds.json') as f:
     api_key = json.load(f)['api_key']
 
 search_term = urllib.parse.quote('Donald Trump')
+# Search engine
 search_engine = '014944568599467514515:kbz22k4qdru'
 query = f'{base_url}?key={api_key}&q={search_term}&cx={search_engine}&count=100'
 
